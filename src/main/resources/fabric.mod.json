@@ -3,7 +3,7 @@
 	"id": "nmmr",
 	"version": "${version}",
 	"name": "nomapmarker",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod toggles veiwing of maps and hopefuly will have options on what parts of maps to disable",
 	"authors": [
 		"Me!"
 	],
