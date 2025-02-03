@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "nmmr",
+	"version": "${version}",
+	"name": "nomapmarker",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nmmr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kittycat7j.Nmmr"
+		],
+		"modmenu": [
+			"net.kittycat7j.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"nmmr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": ">=11.0.0"
+	},
+	"suggests": {
+		"another-mod": "*",
+		"modmenu": ">=7.0.0"
+	}
+}
