@@ -35,6 +35,7 @@ public class Nmmr implements ModInitializer {
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			while (toggleMapRenderKey.wasPressed()) {
 				config.mapRender = !config.mapRender;
+				config.save(); // Save the configuration
 				LOGGER.info("Map render toggled: {}", config.mapRender);
 				sendMessageToChat("Map render toggled: " + (config.mapRender ? "ON" : "OFF"));
 			}

@@ -22,8 +22,7 @@ public class ModConfig {
                 .setDefaultValue(true)
                 .setSaveConsumer(newValue -> {
                     mapRender = newValue;
-                    // Save the configuration immediately
-                    Nmmr.config = this;
+                    save(); // Save the configuration immediately
                 })
                 .build());
 
@@ -33,5 +32,10 @@ public class ModConfig {
                 .build());
 
         return builder.build();
+    }
+
+    public void save() {
+        // Implement saving logic here, e.g., writing to a file or updating a config manager
+        Nmmr.config = this;
     }
 }
