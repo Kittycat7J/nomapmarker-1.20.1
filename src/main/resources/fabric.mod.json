@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "nmmr",
 	"version": "${version}",
-	"name": "nomapmarker",
-	"description": "This mod toggles veiwing of maps and hopefuly will have options on what parts of maps to disable",
+	"name": "MoMapMarkerRender",
+	"description": "This mod toggles rendering of map item frame markers.",
 	"authors": [
-		"Me!"
+		"Kittycat7J"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
